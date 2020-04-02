@@ -26,5 +26,5 @@ root@localhost:~# docker run jmnote/log-generator
 54.236.213.208 - - [02/Apr/2020:07:32:29 +0000] "GET /projects HTTP/1.1" 200 15974 "http://www.semicomplete.com/blog/geekery/jquery-interface-/p%20ppuffer.html" "Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36"
 77.241.193.88 - - [02/Apr/2020:07:32:30 +0000] "HEAD /blog/tags/site?page=2 HTTP/1.1" 200 7720 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.152 Safari/535.19 CoolNovo/2.0.3.55"
 ^C
-root@localhost:~/log-generator#
+root@localhost:~#
 ```
