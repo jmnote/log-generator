@@ -1,4 +1,4 @@
-#!/bin/bash
+cd /root/
 while true; do
 
   time=`date +"[%d/%b/%Y:%H:%M:%S %z]"`
