@@ -18,3 +18,13 @@ root@localhost:~/log-generator# ./run.sh
 ^C
 root@localhost:~/log-generator#
 ```
+
+```
+root@localhost:~# docker run jmnote/log-generator
+180.76.6.146 - - [02/Apr/2020:07:32:27 +0000] "OPTIONS /presentations/mpi/images/expand.png HTTP/1.1" 200 20153 "-" "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.58 Safari/537.36"
+76.167.133.189 - - [02/Apr/2020:07:32:28 +0000] "GET /blog/articles/dynamic-dns-with-dhcp HTTP/1.1" 200 30503 "http://www.semicomplete.com/blog/geekery/grok-predicates-perl-vs-cplusplus.html" "Mozilla/5.0 (X11; Linux i686; rv:27.0) Gecko/20100101 Firefox/27.0"
+54.236.213.208 - - [02/Apr/2020:07:32:29 +0000] "GET /projects HTTP/1.1" 200 15974 "http://www.semicomplete.com/blog/geekery/jquery-interface-/p%20ppuffer.html" "Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36"
+77.241.193.88 - - [02/Apr/2020:07:32:30 +0000] "HEAD /blog/tags/site?page=2 HTTP/1.1" 200 7720 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.152 Safari/535.19 CoolNovo/2.0.3.55"
+^C
+root@localhost:~/log-generator#
+```
